@@ -9,15 +9,15 @@
 </head>
 
 <body>
-    <div id="app">
-        <div class="container">
+    <div id="app" >
+        <div class="container"  >
             <div class="row">
                 <form class="form-inline mt-2 mt-md-0">
-                    <input v-model="searchName" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <input  v-model="searchName" class="form-control mr-sm-2" type="text" placeholder="Search by name or id" aria-label="Search">
                 </form>
             </div>
-            <main class="cards">
-                <article class="card" v-for="poke in filteredPokeListByName">
+            <main class="cards" >
+                <article v-for="poke in filteredPokeListByName">
                     <img v-bind:src="poke.img">
                       <div class="card-body">
                         <div class="text">

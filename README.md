@@ -2,4 +2,5 @@
 You can access this application via 
 https://pokesearch.cfapps.io/
 #If the url is not working, you can send to me mustafa.salim.hamid@gmail.com
+Others enhancements will be coming soon.
 

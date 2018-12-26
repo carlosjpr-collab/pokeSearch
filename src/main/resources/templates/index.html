@@ -19,9 +19,13 @@
             <main class="cards">
                 <article class="card" v-for="poke in filteredPokeListByName">
                     <img v-bind:src="poke.img">
-                    <div class="text">
-                        <h3>{{poke.name}}</h3>
-                        <button>{{poke.id}}</button>
+                      <div class="card-body">
+                        <div class="text">
+                          <p>{{poke.name}}</p>
+                          <p>{{poke.id}}</p>
+                          <p>Type:      </p>
+                          <p v-for="type in poke.type"> {{type}}</p>
+                         </div>
                     </div>
                 </article>
             </main>>
